@@ -1,8 +1,8 @@
-##AI Robot Navigation System
-#Disclaimer
+## AI Robot Navigation System
+# Disclaimer
 This work is the copyright of Alok Tripathi. Reproduction of this work, in whole or in part, without the explicit consent of the author is strictly prohibited.
 
-#Overview
+# Overview
 The AI Robot Navigation System is a project designed to enable intelligent navigation for robots, allowing them to traverse from an initial state to a specified goal state. This system employs an efficient combination of an SQLite database for storing the map of the search space, uninformed search algorithms, and the Matplotlib library for visualizing the search space and paths.
 
 #Features
