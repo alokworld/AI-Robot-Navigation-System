@@ -21,3 +21,7 @@ The system employs uninformed search algorithms to explore the search space syst
 
 Path Visualization: 
 Matplotlib is used to visualize the search space and display the discovered paths, making it easier for users to interpret and analyze the robot's navigation.
+
+## Screenshot
+![Figure_1](https://github.com/alokworld/AI-Robot-Navigation-System/assets/109170042/604191d9-acf7-4700-9ffd-4702c7f4ed66)
+
