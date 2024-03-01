@@ -52,7 +52,7 @@ class RobotNavigation:
         self.connection.commit()
         return 0 <= row < self.rows and 0 <= col < self.cols and not result
 
-    def bfs(self, start, goal):
+    def dfs(self, start, goal):
         stack=[]
         visited = set() 
 
@@ -118,7 +118,7 @@ robot_nav.set_start(0, 0)
 start = (0, 0)
 goal = (4, 4)
 
-optimal_path = robot_nav.bfs(start, goal)
+optimal_path = robot_nav.dfs(start, goal)
 
 if len(optimal_path) != 0:
     print(type(optimal_path))
